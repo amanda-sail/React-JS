@@ -29,8 +29,8 @@ function App() {
         />
         <Daily
           activity="Social"
-          hours="5hrs"
-          lastWeek="Previous - 7hrs"
+          hours="1hr"
+          lastWeek="Previous - 3hrs"
         />
         <Daily
           activity="Self Care"
@@ -62,7 +62,7 @@ function App() {
         <Weekly
           activity="Social"
           hours="5hrs"
-          lastWeek="Previous - 7hrs"
+          lastWeek="Previous - 10hrs"
         />
         <Weekly
           activity="Self Care"
@@ -93,8 +93,8 @@ function App() {
         />
         <Monthly
           activity="Social"
-          hours="5hrs"
-          lastWeek="Previous - 7hrs"
+          hours="21hrs"
+          lastWeek="Previous - 23hrs"
         />
         <Monthly
           activity="Self Care"
@@ -107,21 +107,6 @@ function App() {
 }
 
 export default App;
-
-
-Social
-1hr
-<!-- daily -->
-Previous - 3hrs
-<!-- daily -->
-5hrs
-<!-- weekly -->
-Previous - 10hrs
-<!-- weekly -->
-21hrs
-<!-- monthly -->
-Previous - 23hrs
-<!-- monthly -->
 
 Self Care
 0hrs
