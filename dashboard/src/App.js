@@ -41,8 +41,8 @@ function App() {
       <div id="dashboard-container">
         <Weekly
           activity="Work"
-          hours="103hrs"
-          lastWeek="Previous - 128hrs"
+          hours="32hrs"
+          lastWeek="Previous - 36hrs"
         />
         <Weekly
           activity="Play"
@@ -73,8 +73,8 @@ function App() {
       <div id="dashboard-container">
         <Monthly
           activity="Work"
-          hours="5hrs"
-          lastWeek="Previous - 7hrs"
+          hours="103hrs"
+          lastWeek="Previous - 128hrs"
         />
         <Monthly
           activity="Play"
