@@ -15,7 +15,7 @@ function App() {
         <Daily
           activity="Play"
           hours="1hr"
-          lastWeek="Previous - 10hrs"
+          lastWeek="Previous - 2hrs"
         />
         <Daily
           activity="Study"
@@ -46,8 +46,8 @@ function App() {
         />
         <Weekly
           activity="Play"
-          hours="1hr"
-          lastWeek="Previous - 10hrs"
+          hours="10hr"
+          lastWeek="Previous - 8hrs"
         />
         <Weekly
           activity="Study"
@@ -78,8 +78,8 @@ function App() {
         />
         <Monthly
           activity="Play"
-          hours="1hr"
-          lastWeek="Previous - 10hrs"
+          hours="23hrs"
+          lastWeek="Previous - 29hrs"
         />
         <Monthly
           activity="Study"
@@ -108,20 +108,6 @@ function App() {
 
 export default App;
 
-
-Play
-1hr
-<!-- daily -->
-Previous - 2hrs
-<!-- daily -->
-10hrs
-<!-- weekly -->
-Previous - 8hrs
-<!-- weekly -->
-23hrs
-<!-- monthly -->
-Previous - 29hrs
-<!-- monthly -->
 
 Study
 0hrs
