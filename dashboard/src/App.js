@@ -34,8 +34,8 @@ function App() {
         />
         <Daily
           activity="Self Care"
-          hours="5hrs"
-          lastWeek="Previous - 7hrs"
+          hours="0hrs"
+          lastWeek="Previous - 1hr"
         />
       </div>    
       <div id="dashboard-container">
@@ -66,8 +66,8 @@ function App() {
         />
         <Weekly
           activity="Self Care"
-          hours="5hrs"
-          lastWeek="Previous - 7hrs"
+          hours="2hrs"
+          lastWeek="Previous - 2hrs"
         />
       </div>  
       <div id="dashboard-container">
@@ -98,8 +98,8 @@ function App() {
         />
         <Monthly
           activity="Self Care"
-          hours="5hrs"
-          lastWeek="Previous - 7hrs"
+          hours="7hrs"
+          lastWeek="Previous - 11hrs"
         />
       </div>  
     </div>
@@ -107,17 +107,3 @@ function App() {
 }
 
 export default App;
-
-Self Care
-0hrs
-<!-- daily -->
-Previous - 1hr
-<!-- daily -->
-2hrs
-<!-- weekly -->
-Previous - 2hrs
-<!-- weekly -->
-7hrs
-<!-- monthly -->
-Previous - 11hrs
-<!-- monthly -->
