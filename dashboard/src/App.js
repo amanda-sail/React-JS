@@ -13,32 +13,32 @@ function App() {
         <Daily
           activity="Work"
           hours="5hrs"
-          previous="Previous - 7hrs"
+          previous="Last Week - 7hrs"
         />
         <Daily
           activity="Play"
           hours="1hr"
-          previous="Previous - 2hrs"
+          previous="Last Week - 2hrs"
         />
         <Daily
           activity="Study"
           hours="0hr"
-          previous="Previous - 1hr"
+          previous="Last Week - 1hr"
         />
         <Daily
           activity="Exercise"
           hours="1hr"
-          previous="Previous - 1hr"
+          previous="Last Week - 1hr"
         />
         <Daily
           activity="Social"
           hours="1hr"
-          previous="Previous - 3hrs"
+          previous="Last Week - 3hrs"
         />
         <Daily
           activity="Self Care"
           hours="0hrs"
-          previous="Previous - 1hr"
+          previous="Last Week - 1hr"
         />
       </div>    
       {/* <div id="dashboard-container">
