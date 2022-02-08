@@ -1,0 +1,32 @@
+.dashboard{
+    border: none;
+    border-radius: 20px;
+    background-color: green;
+    grid-row: 1/3;
+}
+img {
+
+}
+.data {
+    border: none;
+    border-radius: 20px;
+    background-color: hsl(235, 46%, 20%);
+    padding: 30px;
+}
+.data:hover {
+    background-color: hsl(235, 45%, 41%);
+}
+h2 {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0;
+}
+h3 {
+    font-size: 40px;
+    font-weight: 300;
+    margin: 20px 0 10px;
+}
+p {
+    color: hsl(236, 100%, 87%);
+    margin: 0;
+}

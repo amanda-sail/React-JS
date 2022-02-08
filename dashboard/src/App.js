@@ -1,44 +1,47 @@
 import './App.css';
-import Dashboard from './daily.js'
+import Profile from './components/profile';
+import Daily from './components/daily';
+// import Weekly from './components/weekly';
+// import Monthly from './components/monthly';
 
 function App() {
   return (
-    <div>
+    <div id='container'>
       <Profile/>
       
       <div id="dashboard-container">
         <Daily
           activity="Work"
           hours="5hrs"
-          lastWeek="Previous - 7hrs"
+          previous="Previous - 7hrs"
         />
         <Daily
           activity="Play"
           hours="1hr"
-          lastWeek="Previous - 2hrs"
+          previous="Previous - 2hrs"
         />
         <Daily
           activity="Study"
           hours="0hr"
-          lastWeek="Previous - 1hr"
+          previous="Previous - 1hr"
         />
         <Daily
           activity="Exercise"
           hours="1hr"
-          lastWeek="Previous - 1hr"
+          previous="Previous - 1hr"
         />
         <Daily
           activity="Social"
           hours="1hr"
-          lastWeek="Previous - 3hrs"
+          previous="Previous - 3hrs"
         />
         <Daily
           activity="Self Care"
           hours="0hrs"
-          lastWeek="Previous - 1hr"
+          previous="Previous - 1hr"
         />
       </div>    
-      <div id="dashboard-container">
+      {/* <div id="dashboard-container">
         <Weekly
           activity="Work"
           hours="32hrs"
@@ -101,7 +104,7 @@ function App() {
           hours="7hrs"
           lastWeek="Previous - 11hrs"
         />
-      </div>  
+      </div>   */}
     </div>
   );
 }

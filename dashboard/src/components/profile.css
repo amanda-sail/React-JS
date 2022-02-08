@@ -1,0 +1,41 @@
+#profile-container {
+    border: none;
+    border-radius: 20px;
+    background-color: hsl(235, 46%, 20%);
+    grid-row: 1/3;
+}
+#profile {
+    border-radius: 20px;
+    background-color: hsl(246, 80%, 60%);
+    padding: 30px;
+    padding-bottom: 40px;
+}
+#profile img {
+    width: 80px;
+    border: solid white 3px;
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+#profile h1 {
+    /* font-size: 46px; */
+    font-weight: 300;
+    margin: 0;
+    margin-bottom: 30px;
+}
+#profile p {
+    color: hsl(236, 100%, 87%);
+    margin: 0;
+    padding-left: 0;
+    padding-bottom: 10px;
+}
+#time {
+    padding: 20px 30px;
+}
+#time p {
+    color: hsl(236, 100%, 87%);
+    padding: 10px;
+}
+#time p:hover {
+    color: white;
+    cursor: pointer;
+}
