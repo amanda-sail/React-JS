@@ -2,6 +2,11 @@ import './profile.css';
 import React from 'react';
 
 class Profile extends React.Component {
+
+    fn = (e) => {
+        this.props.changeTimeframe(e.target.textContent.toLowerCase())
+    }
+
     render() {
         return(
             <div id='profile-container'>
@@ -11,9 +16,9 @@ class Profile extends React.Component {
                     <h1>Jeremy Robson</h1>
                 </div>
                 <div id="time">
-                    <p>Daily</p>
-                    <p>Weekly</p>
-                    <p>Monthly</p>
+                    <p onMouseOver={this.fn}>Daily</p>
+                    <p onMouseOver={this.fn}>Weekly</p>
+                    <p onMouseOver={this.fn}>Monthly</p>
                 </div>
             </div>
         );

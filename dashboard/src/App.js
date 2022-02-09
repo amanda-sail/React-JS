@@ -1,15 +1,58 @@
 import './App.css';
 import Profile from './components/profile';
-import Daily from './components/daily';
+import Tab from './components/tab';
+import data from './data.json'
+import { useState } from 'react'
+// import Daily from './components/daily';
 // import Weekly from './components/weekly';
 // import Monthly from './components/monthly';
 
 function App() {
+
+  // let timeframe = "daily";
+
+  const [timeframe, setTimeframe] = useState("daily")
+  const [time, setTime] = useState("Yesterday")
+
+  const changeTimeframe = (newTimeframe) => {
+    // timeframe = newTimeframe
+    setTimeframe(newTimeframe)
+
+    let newTime
+
+    if (newTimeframe === 'daily') {
+      newTime = "Yesterday"
+    }
+    if (newTimeframe === 'weekly') {
+      newTime = "Last Week"
+    }
+    if (newTimeframe === 'monthly') {
+      newTime = "Last Month"
+    }
+
+    setTime(newTime)
+    
+    console.log(timeframe);
+  }
+
+console.log(data);
+
   return (
     <div id='container'>
-      <Profile/>
+      <Profile changeTimeframe={changeTimeframe}/>
       
-      <div id="dashboard-container">
+      {/* <div id="dashboard-container"> */}
+        {
+          data.map((activity) => {
+            return (
+              <Tab title={activity.title} current={activity.timeframes[timeframe].current} previous={activity.timeframes[timeframe].previous} time={time}/>
+            )
+          })
+        }
+      {/* </div> */}
+
+      
+      {/* <div daily="" id="dashboard-container">
         <Daily
           activity="Work"
           hours="5hrs"
@@ -40,7 +83,7 @@ function App() {
           hours="0hrs"
           previous="Last Week - 1hr"
         />
-      </div>    
+      </div>     */}
       {/* <div id="dashboard-container">
         <Weekly
           activity="Work"

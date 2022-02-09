@@ -8,7 +8,6 @@ class Daily extends React.Component {
 
         return(
             <div className='dashboard'>
-                <img src="" alt="" />
                 <div className='data'>
                     <h2>{activity}</h2>
                     <h3>{hours}</h3>
