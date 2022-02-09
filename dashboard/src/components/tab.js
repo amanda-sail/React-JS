@@ -9,9 +9,13 @@ class Tab extends React.Component {
         return (
             <div className='dashboard'>
                 <div className='data'>
-                    <h2>{title}</h2>
-                    <h3>{current}hrs</h3>
-                    <p>{time}&nbsp; - &nbsp;{previous}</p>
+                    <div className="current-data">
+                        <h2>{title}</h2>
+                        <h3>{current}hrs</h3>
+                    </div>
+                    <div className='previous-data'>
+                        <p>{time}&nbsp; - &nbsp;{previous}</p>
+                    </div>
                 </div>
             </div>
         );

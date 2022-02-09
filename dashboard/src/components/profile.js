@@ -12,8 +12,10 @@ class Profile extends React.Component {
             <div id='profile-container'>
                 <div id="profile">
                     <img src="./images/image-jeremy.png" alt="Photo of Jeremy Robson" />
-                    <p>Report for</p>
-                    <h1>Jeremy Robson</h1>
+                    <div id="profile-text">
+                        <p>Report for</p>
+                        <h1>Jeremy Robson</h1>
+                    </div>
                 </div>
                 <div id="time">
                     <p onMouseOver={this.fn}>Daily</p>
