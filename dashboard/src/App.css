@@ -3,14 +3,7 @@
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 1fr 1fr;
   grid-template-areas: "profile dashboard dashboard dashboard" "profile dashboard dashboard dashboard" "profile dashboard dashboard dashboard";
-  /* column-gap: 30px; */
   gap: 30px;
-  /* width: 100%; */
-  /* display: flex;
-  gap: 30px;
-  justify-content: center;
-  align-items: center;
-  padding: 10% 5%; */
 }
 
 
@@ -30,32 +23,3 @@
         "dashboard";
   }
 }
-
-
-
-/* #dashboard-container{ */
-  /* width: 300%;
-  display: flex;
-  flex-wrap: wrap; */
-
-  /* grid-column: 2/5;
-  grid-row: 1/5; */
-
-  /* display: grid; */
-  /* grid-template-rows: 1fr 1fr; */
-  /* grid-template-columns: repeat(auto-fit, minmax(80px, 1fr)); */
-
-  /* display: grid;
-  grid-area: 1/2/3/5;
-  gap: 30px; */
-  
-  /* grid-area: 1/2/5/3; */
-  /* gap: 30px; */
-
-  /* grid-template-columns: repeat(auto-fit, minmax(1fr)); */
-
-  /* display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
-  width: 100%; */
-/* } */
